@@ -173,7 +173,7 @@ export default function ChapterHero() {
             >
               <Image
                 src="/images/portrait-cutout.png"
-                alt="Muhammed Mahshook Ali P - Software Engineer & AI Engineer"
+                alt="Muhammed Mahshook Ali P (Mahshook Ali) - Software Engineer & AI Engineer"
                 width={896}
                 height={1200}
                 priority

@@ -24,8 +24,12 @@ export default function ChapterEngineer() {
             </span>
           </h2>
 
-          <p className="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-2xl font-normal">
-            For CEOs, CTOs, and Engineering Directors asking: <br className="hidden sm:inline" />
+          <p className="text-lg sm:text-xl text-slate-200 leading-relaxed max-w-3xl font-normal mb-5">
+            <strong className="text-white font-semibold">Muhammed Mahshook Ali P</strong> (commonly known as <strong className="text-white font-semibold">Mahshook Ali</strong>) is a Software Engineer and AI Engineer who designs and ships end-to-end digital products, context-aware LLM systems, and resilient cloud infrastructure.
+          </p>
+
+          <p className="text-base sm:text-lg text-slate-400 leading-relaxed max-w-2xl font-normal">
+            For founders, CTOs, and engineering leaders asking: <br className="hidden sm:inline" />
             <span className="text-white font-semibold italic">&ldquo;Can this person build something end-to-end?&rdquo;</span> &mdash; the answer is a decisive, proven <span className="text-sky-400 font-bold">YES</span>.
           </p>
         </div>

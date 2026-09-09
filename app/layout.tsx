@@ -29,8 +29,19 @@ export const metadata: Metadata = {
   description:
     "Muhammed Mahshook Ali is a Software Engineer and AI Engineer specializing in full-stack engineering, Applied AI, LLM applications, RAG systems, cloud infrastructure, and scalable production software.",
   keywords: [
+    "Muhammed Mahshook Ali P",
     "Muhammed Mahshook Ali",
+    "Muhammed Mahshook",
     "Mahshook Ali",
+    "Mahshook",
+    "Mahsoook Ali",
+    "Mahsooq Ali",
+    "Muhammed Mahshook developer",
+    "Muhammed Mahshook software engineer",
+    "Muhammed Mahshook AI engineer",
+    "Mahshook software engineer",
+    "Mahshook AI engineer",
+    "Mahshook developer",
     "Software Engineer",
     "AI Engineer",
     "Applied AI Engineer",
@@ -102,10 +113,22 @@ const structuredData = {
       "@type": "Person",
       "@id": `${siteUrl}/#person`,
       name: "Muhammed Mahshook Ali P",
+      alternateName: [
+        "Mahshook Ali",
+        "Muhammed Mahshook",
+        "Muhammed Mahshook Ali",
+        "Mahshook",
+      ],
+      givenName: "Muhammed Mahshook",
+      familyName: "Ali",
+      additionalName: "P",
       jobTitle: "Software Engineer & AI Engineer",
+      disambiguatingDescription:
+        "Muhammed Mahshook Ali P (commonly known as Mahshook Ali) is a Software Engineer and AI Engineer specializing in full-stack systems, Generative AI, LLM applications, RAG pipelines, and cloud architecture.",
       description:
         "Software Engineer and AI Engineer specializing in full-stack development, Applied AI, LLM applications, RAG systems, backend engineering, and cloud infrastructure.",
       url: siteUrl,
+      mainEntityOfPage: siteUrl,
       email: "mmahshookalip@gmail.com",
       telephone: "+91-7034049672",
       image: `${siteUrl}/images/portrait-cutout.png`,
@@ -156,9 +179,17 @@ const structuredData = {
       "@id": `${siteUrl}/#website`,
       url: siteUrl,
       name: "Muhammed Mahshook Ali P - Software Engineer & AI Engineer",
+      alternateName: [
+        "Mahshook Ali Portfolio",
+        "Muhammed Mahshook Portfolio",
+        "Mahshook Developer",
+      ],
       description:
-        "Personal brand and engineering portfolio of Muhammed Mahshook Ali P, Software Engineer and AI Engineer.",
+        "Official personal brand and engineering portfolio of Muhammed Mahshook Ali P (Mahshook Ali), Software Engineer and AI Engineer.",
       publisher: {
+        "@id": `${siteUrl}/#person`,
+      },
+      about: {
         "@id": `${siteUrl}/#person`,
       },
       inLanguage: "en-US",
@@ -169,6 +200,9 @@ const structuredData = {
       url: siteUrl,
       name: "Muhammed Mahshook Ali P | Software Engineer & AI Engineer Portfolio",
       mainEntity: {
+        "@id": `${siteUrl}/#person`,
+      },
+      about: {
         "@id": `${siteUrl}/#person`,
       },
       isPartOf: {
