@@ -98,6 +98,9 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    google: "h-htCII3g9AUBXcvwv3Y8-wyqxSVFxMxOANOCmnTUEk",
+  },
   other: {
     "geo.region": "IN-KL",
     "geo.placename": "Kochi, Kerala, India",
