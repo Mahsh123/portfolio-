@@ -1,4 +1,4 @@
-﻿export interface EngineeringDomain {
+export interface EngineeringDomain {
   id: string;
   tag: string;
   title: string;
