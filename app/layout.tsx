@@ -99,7 +99,10 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "h-htCII3g9AUBXcvwv3Y8-wyqxSVFxMxOANOCmnTUEk",
+    google: [
+      "vaVvSe-gZlia1jtUP8G961jXngssAuOWoDbj6Hd_JcE",
+      "h-htCII3g9AUBXcvwv3Y8-wyqxSVFxMxOANOCmnTUEk",
+    ],
   },
   other: {
     "geo.region": "IN-KL",
