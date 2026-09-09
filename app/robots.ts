@@ -8,7 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://mahshook.dev/sitemap.xml",
-    host: "https://mahshook.dev",
+    sitemap: "https://mahshook.vercel.app/sitemap.xml",
   };
 }

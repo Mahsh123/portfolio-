@@ -71,7 +71,7 @@ export default function Navbar() {
         </a>
 
         {/* Desktop Nav Links */}
-        <nav className="hidden md:flex items-center gap-1 rounded-full px-3 py-1.5 bg-slate-900/40 border border-slate-800/80 backdrop-blur-md shadow-inner">
+        <nav aria-label="Main navigation" className="hidden md:flex items-center gap-1 rounded-full px-3 py-1.5 bg-slate-900/40 border border-slate-800/80 backdrop-blur-md shadow-inner">
           {navItems.map((item) => {
             const isActive = activeSection === item.href.substring(1);
             return (
@@ -117,7 +117,7 @@ export default function Navbar() {
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div id="mobile-navigation" className="md:hidden bg-[#050B17]/95 border-b border-sky-500/15 px-6 py-5 backdrop-blur-xl animate-in slide-in-from-top-2 duration-200">
+        <nav id="mobile-navigation" aria-label="Mobile navigation" className="md:hidden bg-[#050B17]/95 border-b border-sky-500/15 px-6 py-5 backdrop-blur-xl animate-in slide-in-from-top-2 duration-200">
           <div className="flex flex-col gap-2">
             {navItems.map((item) => {
               const isActive = activeSection === item.href.substring(1);
@@ -148,7 +148,7 @@ export default function Navbar() {
               </a>
             </div>
           </div>
-        </div>
+        </nav>
       )}
     </header>
   );

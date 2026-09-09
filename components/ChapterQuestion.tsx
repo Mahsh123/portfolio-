@@ -11,17 +11,19 @@ export default function ChapterQuestion() {
 
       {/* Monumental Typography with generous negative space */}
       <div className="max-w-5xl mx-auto space-y-8">
-        <h2 className="text-3xl sm:text-5xl md:text-7xl font-light text-slate-400 tracking-tight leading-tight">
-          SOFTWARE <br />
-          <span className="font-extrabold text-white">CAN DO A LOT.</span>
+        <h2 className="tracking-tight leading-tight">
+          <span className="block text-3xl sm:text-5xl md:text-7xl font-light text-slate-400">
+            SOFTWARE <br />
+            <span className="font-extrabold text-white">CAN DO A LOT.</span>
+          </span>
+
+          <span className="block w-16 h-px bg-gradient-to-r from-transparent via-sky-500 to-transparent mx-auto my-6" aria-hidden="true" />
+
+          <span className="block text-4xl sm:text-6xl md:text-8xl font-black leading-none text-transparent bg-clip-text bg-gradient-to-b from-white via-sky-200 to-sky-500">
+            BUT WHAT IF <br />
+            IT COULD THINK?
+          </span>
         </h2>
-
-        <div className="w-16 h-px bg-gradient-to-r from-transparent via-sky-500 to-transparent mx-auto my-6" />
-
-        <h3 className="text-4xl sm:text-6xl md:text-8xl font-black tracking-tight leading-none text-transparent bg-clip-text bg-gradient-to-b from-white via-sky-200 to-sky-500">
-          BUT WHAT IF <br />
-          IT COULD THINK?
-        </h3>
 
         <p className="text-slate-400 text-base sm:text-xl font-normal max-w-2xl mx-auto leading-relaxed pt-6">
           I started as a software engineer building applications and real-world products. Then I moved deeper into

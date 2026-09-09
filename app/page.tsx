@@ -1,6 +1,4 @@
-"use client";
-
-import dynamic from "next/dynamic";
+import SceneWrapper from "@/components/SceneWrapper";
 import Navbar from "@/components/Navbar";
 import ChapterHero from "@/components/ChapterHero";
 import ChapterQuestion from "@/components/ChapterQuestion";
@@ -11,22 +9,17 @@ import ChapterTechUniverse from "@/components/ChapterTechUniverse";
 import ChapterValueProp from "@/components/ChapterValueProp";
 import ChapterFutureContact from "@/components/ChapterFutureContact";
 
-// Dynamically load the persistent 3D WebGL Canvas without SSR to guarantee zero hydration mismatch
-const Cinematic3DScene = dynamic(() => import("@/components/Cinematic3DScene"), {
-  ssr: false,
-});
-
 export default function Home() {
   return (
     <div className="relative min-h-screen bg-[#030712] text-slate-100 selection:bg-sky-500/20 selection:text-sky-300">
       {/* Real Persistent Fullscreen 3D WebGL Background Scene */}
-      <Cinematic3DScene />
+      <SceneWrapper />
 
       {/* Sticky Top Navigation */}
       <Navbar />
 
       {/* Story-Driven Cinematic Narrative */}
-      <main id="main-content" className="relative z-10 flex flex-col" tabIndex={-1}>
+      <main id="main-content" className="relative z-10 flex flex-col" aria-label="Portfolio content" tabIndex={-1}>
         {/* Chapter 1: First Impression (Fullscreen Hero) */}
         <ChapterHero />
 

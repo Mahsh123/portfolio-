@@ -188,7 +188,7 @@ export default function ChapterFutureContact() {
           </div>
 
           {/* Minimal Footer Row */}
-          <div className="pt-10 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-6 text-xs text-slate-500 font-mono">
+          <footer className="pt-10 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-6 text-xs text-slate-500 font-mono">
             <div>
               &copy; 2026 Muhammed Mahshook Ali P. Software Engineer &amp; AI Engineer.
             </div>
@@ -206,7 +206,7 @@ export default function ChapterFutureContact() {
                 Back to Top &uarr;
               </button>
             </div>
-          </div>
+          </footer>
         </div>
       </section>
     </div>

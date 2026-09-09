@@ -67,7 +67,7 @@ export const CONTACT_INFO: ContactInfo = {
   phone: "+91-7034049672",
   location: "Kochi, Kerala, India",
   github: "https://github.com/Mahsh123",
-  linkedin: "https://linkedin.com/in/muhammed-mahshook",
+  linkedin: "https://www.linkedin.com/in/muhammed-mahshook",
 };
 
 export const CERTIFICATIONS: Certification[] = [

@@ -14,7 +14,7 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-const siteUrl = "https://mahshook.dev";
+const siteUrl = "https://mahshook.vercel.app";
 
 export const viewport: Viewport = {
   themeColor: "#030712",
@@ -75,7 +75,6 @@ export const metadata: Metadata = {
     description:
       "Building scalable software and practical AI systems from idea to production. Specializing in full-stack, RAG, LLMs, and cloud deployments.",
     images: ["/images/og-image.jpg"],
-    creator: "@mahshook_ali",
   },
   robots: {
     index: true,
@@ -87,9 +86,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  icons: {
-    icon: "/favicon.ico",
   },
   other: {
     "geo.region": "IN-KL",
